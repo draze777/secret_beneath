@@ -1,0 +1,171 @@
+Dialogues
+=========
+You meet again with Gison, the mushroom soup maker, to ask for your help. He ask you to solve the mystery beneath their house.
+Whatever lies there is dangerous and risky.
+
+--Talk to Nimael--
+
+Nimael: "Hello kid."
+Nimael: "Please help us."
+You: Choice between "What happen?" (continue) and "Did the thieves return and stole your cookbook again?" (continue)
+Nimael: "Please talk to Gison."
+You: Choice between "Ok." and "As usual." (leave)
+
+--Talk to Gison--
+
+Gison: "Finally, our hero has returned."
+You: Choice between "What's going on?" (continue) and "Where are the thieves?" (continue)
+Gison: "Thieves are no longer a problem to us, thanks to you."
+You: "What is it then?"
+Gison: "The problem is far more dangerous and risky especially from a kid."
+You: Choice between "You still not learning, old man." (continue) and "I'm far more dangerous than them." (continue)
+Gison: "If you say so. You see it's been a long time since our house has not been disturb by an earth shake but we suddenly experience it from time to time."
+You: Choice between "And then?" (continue1), "Hmmm...a sudden earth shake. Sounds familiar to me when I was in Stoutford's Church." (continue1; RequiredCompletedQuest: "The Rumblings"), "But earth shake is, randomly and normally, occur." (continue2)
+
+(continue2)
+Gison: "Wow clap to you, kid. You are really attentive to your teacher. (continue1)
+
+(continue1)
+Gison: "This is a serious event that I want you to find out."
+You: Choice between "A mystery case to solve, I'm in!" (continue; quest accepted) and "But that's just a normal event that happens to us occasionally! I'm out of here." (leave)
+Gison: "Good. I want you to talk to Gael. Persuade him to give you a permission to go down the basement. He is living in a small cottage near to this house.
+Gison: "Don't forget to bring him meat - especially the exotic one."
+You: "Ok." (leave)
+
+--Go to Gael's house--
+
+[situation1: if the player has either mushroom's soup OR vegetable's soup in the inventory]
+Gael: "I hate this smell!"
+Gael: "You have some of that disgusting soup in your bag! I can smell it."
+Gael: "Out with you!" (leave)
+
+[situation2: if the player has no either mushroom's soup or vegetable's soup in the inventory AND finished both "Fungi Panic" AND "A giant snake" quests AND ActiveQuestAccepted]
+Gael: "Hi kid. I am Gael, son of those people in the house over there." (next)
+Gael: "I moved out here because I couldn't stand the suffocating smell of mushroom soup anymore. Or vegetable soup, for that matter.
+Gael: "I like meat. Wolves, boars, dogs, puppies. Any kind, really."
+Gael: "And snakes, of course. They give the finest meat of all."
+Gael: "Cooked, grilled, baked, fried, stewed...ahh, snake meat-nothing compares to it!
+You: Choice between "Yes, I love it too!" (contnue) and "To each his own, I guess." (continue)
+Gael: "Now that I mention it: I am running out of meat. I'll have to go out hunting again."
+You: Choice between "Would you like me to give you some meat?" (continue1), "Set it aside, you have a worst problem to deal with." (continue2; RequireActiveQuest: THE SECRET BENEATH) and "Good luck! I am leaving then." (leave)
+
+(continue1)
+Gael: Really?
+You: Choice between "Here, I have 10 nice pieces of meat for you. I cannot promise that it is all from snakes, though." (10 pieces of "meat" removed, continue3) and "Oh, I just noticed that I don't have enought meat with me. I will be back soon with 10 pieces of meat, just you wait." (leave)
+
+(continue3)
+Gael: "Excellent! In return, I can give you this nice little purse, made of the finest snake leather. Look here, isn't it beautiful?"
+(give player a "Snake leather purse")
+You: "It's magnificent! Thank you!" (leave)
+
+(continue2)
+Gael: "The earth shake? It's a normal disaster. But meat...ahh-I cannot live a day without it."
+Gael: "If you are that curious then I wanted you to check the basement but you have to bring me something."
+You: "Lem'me guess. Meat?"
+Gael: "Not just any meat - meat from a different place."
+You: Choice between "I have a goat meat here from Stoutford" (1 piece of "Dried goat meat" removed, quest updated, continue4) and "I'll be back." (leave)
+
+(continue4)
+Gael: "Wow! That is an exotic meat. Thank you."
+You: "Indeed. A meat from a distant foreign place."
+You: "May I pass now?"
+Gael: "Suit yourself. But I warn you."
+Gael: "There is no going back once you go down there. Unless you found another way to go back here."
+You: "Wait what?! There is no ladder or rope to go down there?"
+Gael: "It's not that deep to jump down there. I'll have to go out hunting."
+You: "Really helpful." (leave)
+
+--go near the basement door--
+You: Choice between *Jump* and "Lem'me breath for a while." (leave)
+
+The basement is a dark, moist, and smelly place. It looks made of dirt.
+You jumped in the center of the ground surrounded by 4 walls (with a large hole on the bottom of every 4 walls-like the one in flagstone2) on every each side - north, south, east and west.
+As if they were dug by a large snake.
+As you venture deeper in a maze-like underground tunnels, you notice that:
+on the very east, you saw a wide place filled with greedy thieves singing and playing musical instruments and numerous chests filled with golds and "empty bottle". For they have been there for years planning to set up the final theft in Bogsten's house.
+The following foes are:
+- Thief
+- Thief Warden
+- Thief Boss Brothers (looks like "Robber")
+on the very west, you saw a bigger and stronger snake and is very angry because you killed its one and only child during one your quest namely "A giant snake".
+The following foes are:
+- Aggressive cave bat
+- Aggressive snake (looks like "contaminated olm")
+- Gigantic Snake (tougher than the "Giant snake")
+
+The rest, you scatteredly encounter the following foes:
+- Black cave bat
+- Brown cave bat
+- Sable snake (looks like blackened olm)
+- Worm snake (looks like dun olm)
+- Cave burrower
+- Larval burrower
+
+--go to the very west--
+You: Choice between "What the? Is that a snake?! It's so big!" (leave), "Finally, a worthy of opponent!" (leave) and "Oopsie, wrong turn." (leave)
+--talk to the gigantic snake--
+Gigantic snake: "Sssshhhh! Fight or run, you will taste my venom for what you did to my only child!
+You: Choice between "Ahhhhh!", "I have to kill you first.", "Only child? Which means these are your cousins?!" and "Your child deserves it for it threatens the birth of my place. For Crossglen!" (all tough fight starts)
+--player toughly kills gigantic snake --
+(quest updated)
+ExpReward: 1,000 exp
+
+--go to the very east--
+You: Choice between "What the? Is that a thieves guild? Lots of gold!" (leave), "Finally, another worthless group of thieves." (leave) and "Wow! I'm no longer in a wrong path." (leave)
+--talk to the thieves brothers--
+Thief brother1 or Thief brother2: "Grrrr! Fight or run, you will taste our poisonous blade for what you did to our brothers!"
+You: Choice between: "Ahhhhh!", "I have to kill all of you first.", "Your brothers? Which means these are your cousins?!" and "Your brothers deserves it for it threatens the origin of cookbook. For the cookbook!" (all tough fight starts)
+--player toughly kills the thieves brothers--
+(quest updated)
+ExpReward: 1,000 exp
+--talk to the Thief Warden--
+Thief warden: "You. Shall. Not. Pass!" (tough fight start)
+--player toughly kills the thief warden--
+ExpReward: 500 exp
+You: *behind the thief warden is a rope tightly hanged upstraight and you saw a light from above* choice between "Finally, an exit!" (leave), "Lem'me out of here now." (leave) and "Oh wait. I have to check if I already loot everything. Mwuahahaha!" (leave)
+(quest updated)
+
+--go near the rope--
+(exit)
+Player will go back to the surface (I can't insert image so it is located from somehow a look-alike entrance of waytobrimhavencave0 and of crackshot_hideout1) just nearby the Gison's house.
+
+--talk to Nimael--
+Nimael: "Hello kid. Thank you for helping us again. We can no longer feel our house shaking." (FinishedQuestStepRequire: Kill thief brothers and gigantic worm)
+Nimael: "Hello kid. Thank you for helping us again. We feel our house less shaking than before." (FinishedQuestStepRequire: Kill thief brothers)
+You: "You're welcome."
+Nimael: "Please talk to my husband, Gison." (leave)
+
+--talk to Gison--
+Gison: "Ah ha, our hero has finally returned. Thank you for helping us once more!"
+You: choice between "You're welcome." and "As usual, where's my reward?"
+Gison: "Before I give you my reward. Please tell me what's beneath my very own lovely house?"
+You: "There was something hidden beneath your house."
+You: "A band of thieves secretly plotted evil against your cookbook again."
+You: "A gigantic worm dwelling under your house." (FinishedQuestStepRequire: Kill Gigantic worm)
+Gison: "Geez! Did you kill them all?"
+You: choice between "Yes, I killed them all" (FinishedQuestStepRequire: Kill thief brothers and gigantic worm) and "Yes, I killed all of the thieves." (FinishedQuestStepRequire: Kill thief brothers)
+Gison: choice between "Finally! I can feel it because I can no longer feel the house shaking." (FinishedQuestStepRequire: Kill thief brothers and gigantic worm) and "Ah. But why I can still feel the house less shaking? Go back down there and finish this to receive your reward." (leave; FinishedQuestRequire: Kill thief brothers; QuestUpdated)
+You: choice between "Ahem. The reward?" (FinishedQuestStepRequire: Kill thief brothers and gigantic worm) and "I'm glad to help, happy feet." (FinishedQuestStepRequire: Kill thief brothers and gigantic worm)
+Gison: "Hahaha. As usual, my reward is let me give you a free taste of our new trending limited cream mushroom soup."
+--Received " 1 bottle of Gison's Cream Mushroom Soup"
+-----------------------QuestCompleted-----------------------
+You: choice between "Thank you. Looks delicious and healthy." and "Why is the soup slightly color white?"
+Gison: "We added milk to be healthier and more delicious."
+You: "Oh yes."
+Gison: "Give me 2 of Bogsten's mushrooms, a milk and an empty bottle, then I could sell you a portion for only 53 gold."
+You: "OK."
+Gison: "I still have some of my delicious soup. How many bottles of soup do you want?"
+..........)
+
+
+Quest log
+=========
+10 Gison, the man with the mushroom soup in the forest south of Fallhaven, got troubled from the mysterious force beneath his house. Whether its a natural seismic event or not, he asked me to check their basement by talking to Gael.
+20 Gael wants me to bring him an exotic meat. After that, I can go down to their basement.
+30 I brought some dried goat meat to Gael since it is the only meat I can find from another place.
+40 I killed a gigantic snake dwelling beneath Gison's house. (1,000XP)
+50 I killed all of the thieves as they loudly singing and playing musical instruments while celebrating their successful thefts. (1,000XP)
+60 I killed the thief warden and found an exit via rope. (500XP)
+70 I told Gison about the thieves' evil plan plotted and the gigantic snake lived in secret beneath their house. He is like a happy feet-dancing and celebrating. [End of Quest]
+80 Gison will give me cream mushroom soup in thanks if I bring him 2 of Bogsten's mushrooms, a milk, an empty bottle and 53 gold. [End of quest]
+85 I told Gison about the thieves' evil plan plotted in secret beneath their house. He is somewhat happy because the house is shaking less often. So, he urged me to go back down and explore the basement to slay whatever creature lies below.
