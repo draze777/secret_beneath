@@ -269,5 +269,63 @@
                 "nextPhraseID":"nimael_busy"
             }
         ]
+    },
+    {
+        "id":"gael",
+        "replies":[
+            {
+                "nextPhraseID":"gael_secret_exoticMeat",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_beneath",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gael_soup",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gison_soup",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gael_soup",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"nimael_soup",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gael_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gael_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_soup",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gael_1"
+            }
+        ]
     }
 ]
