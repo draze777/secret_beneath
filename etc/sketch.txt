@@ -70,8 +70,8 @@ Gael: "Wow! That is an exotic meat. Thank you."
 You: "Indeed. A meat from a distant foreign place."
 You: "May I pass now?"
 Gael: "Suit yourself. But I warn you."
-Gael: "There is no going back once you go down there. Unless you found another way to go back here. Lem'me give you the key."
-You: "Ok." (questUpdated)
+Gael: "There is no going back once you go down there. Unless you found another way to go back here. \n Here's the key."
+You: "Wait what?! There is no ladder or rope to go down there?" (questUpdated)
 --Received Gael's Basement key 
 Gael: "It's not that deep to jump down there. I'll have to go out hunting. Good luck" 
 You: Choice between "Really helpful." (leave) and "Happy hunting." (leave)
