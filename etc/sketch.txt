@@ -76,7 +76,8 @@ You: "Wait what?! There is no ladder or rope to go down there?" (questUpdated)
 Gael: "It's not that deep to jump down there. I'll have to go out hunting. Good luck" 
 You: Choice between "Really helpful." (leave) and "Happy hunting." (leave)
 
-
+--go near the basement door--
+You: Choice between *Jump* and "Lem'me breath for a while." (leave)
 
 
 The basement is a dark, moist, and smelly place. It looks made of dirt.
