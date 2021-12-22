@@ -70,9 +70,9 @@ Gael: "Wow! That is an exotic meat. Thank you."
 You: "Indeed. A meat from a distant foreign place."
 You: "May I pass now?"
 Gael: "Suit yourself. But I warn you."
-Gael: "There is no going back once you go down there. Unless you found another way to go back here."
-You: "Wait what?! There is no ladder or rope to go down there?"
-Gael: "It's not that deep to jump down there. I'll have to go out hunting. /n Here's the key."
+Gael: "There is no going back once you go down there. Unless you found another way to go back here. "
+You: "Wait what?! There is no ladder or rope to go down there?" (questUpdated)
+Gael: "It's not that deep to jump down there. I'll have to go out hunting. /n Here's the key." 
 --Received Gael's Basement key 
 You: "Really helpful." (leave)
 
@@ -162,8 +162,9 @@ Gison: "I still have some of my delicious soup. How many bottles of soup do you 
 Quest log
 =========
 10 Gison, the man with the mushroom soup in the forest south of Fallhaven, got troubled from the mysterious force beneath his house. Whether its a natural seismic event or not, he asked me to check their basement by talking to Gael.
-20 Gael wants me to bring him an exotic meat. After that, I can go down to their basement.
+20 Gael wants me to bring him an exotic meat in exchange of permission to check their basement. 
 30 I brought some dried goat meat to Gael since it is the only meat I can find from another place.
+40 Gael gaved me a key for their basement. It's time to solve the secret mystery beneath their house.
 40 I killed a gigantic snake dwelling beneath Gison's house. (1,000XP)
 50 I killed all of the thieves as they loudly singing and playing musical instruments while celebrating their successful thefts. (1,000XP)
 60 I killed the thief warden and found an exit via rope. (500XP)
