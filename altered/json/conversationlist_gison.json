@@ -283,6 +283,16 @@
                     }
                 ]
             },
+	    {
+                "nextPhraseID":"gael_secret_exoticMeat_eaten",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_beneath",
+                        "value":30
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"gael_soup",
                 "requires":[
