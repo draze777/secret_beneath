@@ -3,7 +3,7 @@ Dialogues
 You meet again with Gison, the mushroom soup maker, to ask for your help. He ask you to solve the mystery beneath their house.
 Whatever lies there is dangerous and risky.
 
---Talk to Nimael--
+--If you talk to Nimael--
 
 Nimael: "Hello kid."
 Nimael: "Please help us."
