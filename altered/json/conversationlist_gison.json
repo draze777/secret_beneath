@@ -348,9 +348,30 @@
                         "requireType":"questProgress",
                         "requireID":"view_gigantic_snake",
                         "value":1
+                    },
+		    {
+                        "requireType":"killedMonster",
+                        "requireID":"giant_snake",
+                        "value":1
                     }
-                ]
-            }
+                ]   
+            },
+	    {
+                "nextPhraseID":"gigantic_snake_still_alive",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"gigantic_snake",
+                        "value":1
+			"negate": true
+                    },
+		    {
+                        "requireType":"questProgress",
+                        "requireID":"view_gigantic_snake",
+                        "value":11
+                    }
+                ]   
+            },
         ]
     },
     {
@@ -365,6 +386,29 @@
                         "value":1
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"thief_warden",
+        "replies":[
+            {
+                "nextPhraseID":"thief_bosses_defeated",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"thief_boss1",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"thief_boss2",
+                        "value":1
+                    }
+                ]
+            },
+	    {
+                "nextPhraseID":"thief_warden_disturbed",
             }
         ]
     }
