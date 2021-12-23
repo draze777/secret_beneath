@@ -353,4 +353,19 @@
             }
         ]
     },
+    {
+        "id":"thieves_celebration",
+        "replies":[
+            {
+                "nextPhraseID":"thieves_disturbed",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"view_thieves_celebration",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    }
 ]
