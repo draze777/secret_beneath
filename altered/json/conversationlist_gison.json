@@ -18,6 +18,23 @@
                     }
                 ]
             },
+	    {
+                "nextPhraseID":"gison_secret_beneath_player_return",
+		"requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_beneath",
+                        "value":10
+			"negate": true
+                    },
+		    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_beneath",
+                        "value":90
+			"negate": true
+                    }
+                ]
+	    },
             {
                 "nextPhraseID":"gison_p2_70",
                 "requires":[
