@@ -337,5 +337,20 @@
                 "nextPhraseID":"gael_1"
             }
         ]
-    }
+    },
+    {
+        "id":"gigantic_snake",
+        "replies":[
+            {
+                "nextPhraseID":"gigantic_snake_disturbed",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"view_gigantic_snake",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
 ]
