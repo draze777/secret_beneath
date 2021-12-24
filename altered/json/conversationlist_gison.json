@@ -189,8 +189,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"secret_beneath",
-                        "value":10,
-			"negate": true
+                        "value":70
                     },
 		    {
                         "requireType":"questProgress",
