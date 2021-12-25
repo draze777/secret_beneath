@@ -19,6 +19,22 @@
                 ]
             },
 	    {
+                "nextPhraseID":"gison_secret_10",
+                "requires":[
+                     {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":120
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_beneath",
+                        "value":15,
+						"negate":true
+                    }
+                ]
+            },
+	    {
                 "nextPhraseID":"gison_secret_beneath_player_no_jump",
                 "requires":[
 		    {
@@ -34,13 +50,13 @@
 		"requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"secret_beneath",
-                        "value":65
+                        "requireID":"gael_hatch_basement_situation",
+                        "value":11
                     },
 		    {
                         "requireType":"questProgress",
                         "requireID":"secret_beneath",
-                        "value":80
+                        "value":75
 			"negate": true
                     }
                 ]
@@ -199,8 +215,8 @@
 		"requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"secret_beneath",
-                        "value":65
+                        "requireID":"gael_hatch_basement_situation",
+                        "value":11
                     },
 		    {
                         "requireType":"questProgress",
@@ -402,40 +418,146 @@
         ]
     },
     {
-        "id":"thieves_celebration",
+        "id":"undg_thieves_celebration",
         "replies":[
             {
-                "nextPhraseID":"thieves_disturbed",
+                "nextPhraseID":"undg_thieves_neutral",
                 "requires":[
                     {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    },
+		    {
                         "requireType":"questProgress",
-                        "requireID":"view_thieves_celebration",
-                        "value":1
+                        "requireID":"undg_boss_thieves_friendship",
+                        "value":11,
+			"negate": true
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"undg_thieves_neutral2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/3"
+                    },
+		    {
+                        "requireType":"questProgress",
+                        "requireID":"undg_boss_thieves_friendship",
+                        "value":11,
+			"negate": true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"undg_thieves_neutral3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/4"
+                    },
+		    {
+                        "requireType":"questProgress",
+                        "requireID":"undg_boss_thieves_friendship",
+                        "value":11,
+			"negate": true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"F"
             }
         ]
     },
     {
-        "id":"thief_warden",
+        "id":"undg_thief_boss1",
+        "replies":[
+            {
+                "nextPhraseID":"undg_boss_thief1_dialogue",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"undg_boss_thieves_friendship",
+                        "value":11,
+			"negate": true
+                    },
+		    {
+                	"requireType":"questProgress",
+                	"requireID":"undg_thieves_negotiation",
+               	 	"value":1
+           	    }
+                ]
+            },
+	    {
+                "nextPhraseID":"undg_boss_thief1_supply_soup",
+                "requires":[
+                    {
+                	"requireType":"questProgress",
+                	"requireID":"undg_thieves_negotiation",
+               	 	"value":2
+           	    }
+                ]
+            },
+	    {
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"undg_thief_boss2",
+        "replies":[
+            {
+                "nextPhraseID":"undg_boss_thief2_dialogue",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"undg_boss_thieves_friendship",
+                        "value":11,
+			"negate": true
+                    },
+		    {
+                	"requireType":"questProgress",
+                	"requireID":"undg_thieves_negotiation",
+               	 	"value":1
+           	    }
+                ]
+            },
+	    {
+                "nextPhraseID":"undg_boss_thief2_supply_soup",
+                "requires":[
+                    {
+                	"requireType":"questProgress",
+                	"requireID":"undg_thieves_negotiation",
+               	 	"value":2
+           	    }
+                ]
+            },
+	    {
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"undg_thief_warden",
         "replies":[
             {
                 "nextPhraseID":"thief_bosses_defeated",
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"thief_boss1",
+                        "requireID":"undg_thief_boss1",
                         "value":1
                     },
                     {
                         "requireType":"killedMonster",
-                        "requireID":"thief_boss2",
+                        "requireID":"undg_thief_boss2",
                         "value":1
                     }
                 ]
             },
 	    {
-                "nextPhraseID":"thief_warden_block"
+                "nextPhraseID":"undg_thief_warden_block"
             }
         ]
     }
