@@ -56,7 +56,7 @@
 		    {
                         "requireType":"questProgress",
                         "requireID":"secret_beneath",
-                        "value":75
+                        "value":75,
 			"negate": true
                     }
                 ]
