@@ -8,7 +8,23 @@
                      {
                         "requireType":"questProgress",
                         "requireID":"gison_cookbook",
-                        "value":120
+                        "value":62
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_beneath",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            },
+	    {
+                "nextPhraseID":"gison_secret_0",
+                "requires":[
+                     {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":70
                     },
                     {
                         "requireType":"questProgress",
@@ -23,8 +39,8 @@
                 "requires":[
                      {
                         "requireType":"questProgress",
-                        "requireID":"gison_cookbook",
-                        "value":120
+                        "requireID":"secret_beneath",
+                        "value":10
                     },
                     {
                         "requireType":"questProgress",
@@ -200,7 +216,23 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"gison_cookbook",
-                        "value":120
+                        "value":62
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"secret_beneath",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            },
+	    {
+                "nextPhraseID":"nimael_secret_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"gison_cookbook",
+                        "value":70
                     },
                     {
                         "requireType":"questProgress",
