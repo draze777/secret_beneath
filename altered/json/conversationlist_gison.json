@@ -369,8 +369,32 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"secret_beneath",
-                        "value":20
+                        "requireID":"gael_exotic_meat_order",
+                        "value":1
+                    },
+		    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gison_soup",
+                        "value":1,
+			"negate":true
+                    },
+		    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"nimael_soup",
+                        "value":1,
+			"negate":true
+                    },
+		    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gison_soup",
+                        "value":10,
+			"negate":true
+                    },
+		    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gison_soup",
+                        "value":20,
+			"negate":true
                     }
                 ]
             },
@@ -379,8 +403,38 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"secret_beneath",
-                        "value":25
+                        "requireID":"gael_exotic_meat_order",
+                        "value":11
+                    },
+		    {
+                        "requireType":"questProgress",
+                        "requireID":"gael_hatch_basement_situation",
+                        "value":11,
+			"negate":true
+                    },
+		    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gison_soup",
+                        "value":1,
+			"negate":true
+                    },
+		    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"nimael_soup",
+                        "value":1,
+			"negate":true
+                    },
+		    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gison_soup",
+                        "value":10,
+			"negate":true
+                    },
+		    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gison_soup",
+                        "value":20,
+			"negate":true
                     }
                 ]
             },
