@@ -58,6 +58,11 @@
                         "requireID":"secret_beneath",
                         "value":40,
 						"negate":true
+                    },
+		    {
+                        "requireType":"questProgress",
+                        "requireID":"gael_hatch_basement_situation",
+                        "value":2
                     }
                 ]
             },
