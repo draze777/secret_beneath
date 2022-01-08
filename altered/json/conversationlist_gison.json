@@ -414,8 +414,7 @@
 		    {
                         "requireType":"questProgress",
                         "requireID":"gael_hatch_basement_situation",
-                        "value":11,
-			"negate":true
+                        "value":2
                     },
 		    {
                         "requireType":"inventoryKeep",
