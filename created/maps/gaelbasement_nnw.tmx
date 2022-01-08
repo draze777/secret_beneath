@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="51">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="52">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -191,22 +191,22 @@
  </tileset>
  <layer id="1" name="Ground" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJx7w8zA8IaK+D8QC7CQj/8imSUI5G/hJB/zs0DMectMmTkwPBLM+kdFs0DxSS2zQHjULOIxCFAxfS0YhGY1DNY8BCu/qGkWPkyKegCdhhsY
+   eJx7w8zA8AaI/xGJsal9g4T/A7EAC/n4L5JZgkD+Fk7yMT8LxBxKzEDG1DaLWuZR0yxa+HPUrKFt1iBNqw2D1F00MQsXfovDHlzqAQaRGyA=
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBjcQImFfIwMlFmwm08sUKRQP7ngGv/A2DvYAHp8jgL84B8zw4GBdsNIB7eZB9oFmAAAlCYGMQ==
+   eJxjYKA+uMpHPX1KLORjGHjDzMCgzIJpNi7QKogppsiCMIsUMBWLWaSAq/wI9lIKzSIGYPM7uYBSvyMDWvkd3b+bhRgYtgDxLyHSzUL372GgGUegZpEarvj8S0y43iIynZISrr/IDBdCgFppDuQ2fGFDij0gsyiNA2IBNdP2TWb8cQ8An0oezw==
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbLMbAsHkUj+JBjA9B8ahZxJs10HE2ignHNTKmlnmE1AIAzR8raw==
+   eJytlN0NgCAMhE26g/vvwgTKkzqCMoL4k0i8NKVQQpO+0OOj2oNh6B9urNMdpGv9U5s7sWo5b0TS9SuVc6Nfvwh17Lsm/dfPLtSsrDnDil9aWOl7cC1AvxaWlIHNVdJESAuL77P0zVm4b8+cpbHQb05gcT+WZpJj4cySR0sz0Fjcoy2sU9A5YOX+ncSahB5W4Lxa7Q5prOSVi35ty33kPqthaWF5224vItr4
   </data>
  </layer>
  <layer id="5" name="Walkable" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJzlk8sNACAIQ53C/VdwQ6+GtLxy1oQEwqcF4ey1zieSPhXb1VT6a9cYZSd8OoxUd5guR8WoHmpvzj+ZWVqLOKpHvIif41gx0rkTL5fjMBQm7Yjq1WF0/0V7QrwSPq5ueotdLZdLGHRr6Q5UH8kk/gIoWqyT
+   eJzlksENwDAIAzNF918hG+ZbWWfs9FukSCQBfCD2s9b+yWmNYqea5L/vGkP3hmfSaH2n6XIohnrQ3tz/zczaWomRLHElPseoGu3cE5fLcRqkmXaEenUa1P+k6/SIq+Fxdafcdr8m5i/74t6UgUzr07mJP5hFqwU=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -222,7 +222,7 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="50" name="undg_gison_bottle_4" type="script" x="288" y="160" width="32" height="32">
+  <object id="51" name="undg_gison_bottle_7" type="script" x="288" y="160" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
