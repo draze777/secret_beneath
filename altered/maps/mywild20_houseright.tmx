@@ -215,20 +215,12 @@
     <property name="place" value="up_to_gaelbasement"/>
    </properties>
   </object>
-  <object id="15" name="secret_beneath_check_key" type="script" x="64" y="128" width="32" height="64"/>
+  <object id="15" name="secret_beneath_check_key" type="script" x="32" y="128" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
   <object id="2" name="gael" type="spawn" x="128" y="96" width="128" height="64"/>
  </objectgroup>
  <objectgroup id="7" name="Keys">
-  <object id="10" name="secret_beneath_start" type="key" x="32" y="128" width="32" height="32">
-   <properties>
-    <property name="phrase" value="gael_hatch_basement_jumped"/>
-    <property name="requireId" value="secret_beneath_nondisplayed"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="35"/>
-   </properties>
-  </object>
   <object id="14" name="secret_beneath:30" type="key" x="32" y="128" width="32" height="32">
    <properties>
     <property name="phrase" value="sign_gael_nokey"/>
@@ -241,9 +233,6 @@
  <objectgroup id="8" name="Replace">
   <object id="16" name="secret_beneath_nondisplayed:10" type="replace" x="32" y="128" width="32" height="32">
    <properties>
-    <property name="requireId" value="secret_beneath_nondisplayed"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="10"/>
     <property name="Objects" value="Objects_after"/>
    </properties>
   </object>
