@@ -191,22 +191,22 @@
  </tileset>
  <layer id="1" name="Ground" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJx7w8zA8IaK+D8QC7Cg4r9QcUEonx9JDJtakDlvoeq3cGLHMDl+PGpAcjCzcKkhBQ9ms/5Ryax/0DjBF/bEYgEqmEEN7MnEwKAGxF5MlJtlCjRjsxgDgxkVzIpkgpgTRQWzsGFqpa/XVEyrxJilCQwPVSDWwh8uDcSYBYsvNQJhTIxZltD4siLCrDdUzNv4MLqbXxNQDwA4FRJy
+   eJx7w8zA8AaI/1GA3yDh/0AswIKK/2IRxyYGEweZ8xaIBYH8LZzYMbIeXGr4WRBm4VKDC1syMTCYArEZEFsxQcTINQsbhoUXtcz6Bw1PapgFClN8YU8s/kcl/8HcRa5eT2D8bRZjYPBiotwskDkw/JrCOIyEuiuKCZHuqRVeIEzNtEpPszSh4aLFRLlZyPFFqVmWUHdZEeEuauZtapgHMwMAeQ0VDA==
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJytVM1KAzEQDqkURLuVRAT/UR/FR/C4ChWP6hOo0EfZd9CLHnRBLyqoS09WD559hFJav2kyZjbbBQ9+8LGT7My3M5PMKvX/2NDueaTDXhv2bVOpOzAHN3Xw1VrlZK8I/1lvb89M5ws0XsG3Zr2PxA7WI6PUInR7eB5qZyOvfGicT4r1NewbM/l+B7llCYi47pbQS31uS7pKxrxV6hE6T8btp8Jnwbp6CR+NEEfPti3rENaw923CmnWojmexP264Z88EP8ZI+EmdxAY7Ff4t2GMRw++k9q+/LWtyDwl0DtT7nqnWxdjVqivz5T5QDPeQdM6syo7BFCzMpKYs1poT3+AeSfC9OofGCbgPyrwSUctqlG/cw2X//gIap+ABWFfnnq+xLq+Wj+njDC/x7srVl1eVyn0iTM7B94tj+/4u3MN+mJaTVbXgXDiWUQidxJbzYPKdGEXfJLt0XtGd4TriPOW6EHfvU+TFM1BEMxL3OJ5RP4ulGarkYENPJQYmzCr3JZ4hmm3SB7vgF/1nuKfr+K/gTmS4+xlpDfwsU/zQn/17Q/0J0/4/dfgB5Ktl0A==
+   eJytVLFOxDAMjXroFrgDxadKwIEEfAqfcGNhgBkGdviX/gMsMAASLIAEVJ3u4Av4hBMqPJOaOmkqFp705KS1HduxY8z/YzMxZhUcgIfguJbXfWNuwFvwBPsNcA1MwQm4nrR9bS/E+QwfL+Brv1tHYwf7yhozwhkl5EHi1oxP62SG/SXWV7Ydx5byl9V2adKmYImMeYCfR+u+Z0pnpPTeeo0dy2Xy/TDG+PahYhI/nMdTJNbSNnqCKqLH/4fUrDOlz3f3pWzkn/b9q0++T11DvgeufWnbeQl2Vf4iuQ5sIzVk7JHjPljYeE6L6gypkca05+QROR4H9R6qXMJ+DM8Tu1NyPKPuPCd/xCXgfjjHv4uO/PS5In/uoT5bbGd1nndY38diItOJQeLbCgrlZ0h+HELpiSo4Mw36KewZySOMU+8L1XvvypfMQGF9u7DG4YzyeoX8GWrFQE1NNea2mVWpSzhDfJfsn/PmePmdkZri7cvREzl6P2df83qW2Z71uL7SqwK+05DyfginEZ2Z8vMNGKRhbw==
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJw7JMbAcGgUj+JRPIpH8bDHAHluQLA=
+   eJxjYKA+OCyGXfwSFnFsYjBwWQy/PCVuukiAjw9Qy02kAFzuQxe/LIZfPSkAlz/JNZsabqKledQCg8ldl6noFlAeopbfcJURhAA2+6npLlLyNrKdxNp/EU/+JMc8ECDFzQBDbR2P
   </data>
  </layer>
  <layer id="5" name="Walkable" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJzVlMENACAIA5nC/VdwQ7+GtFCrH0l8CVcsxDki5odnj1c8Vx8FYrN+cx1jVRpMq+J2feU7lI/YrmcK42YO7K0532V19ad9uSzFJ8c7NHvGVfa1qu1mo+y94mXnlfpvqPmOxkvWAmicrug=
+   eJzbKMbAsHEIYmRALfPItR8bwGY2Lvei68NlFj47cNmFz1xC7kKXw6Yem9nkhhk+Mwi5jxRz0MXR1VNiFrH+pKVZxIQTOWGHLe5xmUtMesWnl1DcEJPuiQlLQmFFbLlBrHpy7KCmWQDpEa7o
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -230,7 +230,7 @@
   </object>
  </objectgroup>
  <objectgroup id="9" name="Replace"/>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="42" name="gaelbsmnt_mobs" type="spawn" x="96" y="128" width="416" height="416">
    <properties>
     <property name="quantity" value="7"/>
