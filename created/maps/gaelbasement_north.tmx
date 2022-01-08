@@ -191,22 +191,22 @@
  </tileset>
  <layer id="1" name="Ground" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJx7w8zA8IaK+D8QC7Cg4r9YxLGJwcRhZgkC+Vs4sWMBFlQaG+ZnQZiFSw0peJCbteA/heaBwv4fNNzxhT0xmJ8Ff9yMYuwYBKhlDrXSBMgcEKZGmoCaRQ0/Ngzy/EhVs/BhUtQDABR7GyY=
+   eJx7w8zA8AaI/1GA3yDh/0AswIKK/2IRxyYGEweZ8xaIBYH8LZzYsQALKo0N8wPlXkPNwqUGH1ZlYmBQY0LwKTHLFGiOGZpZb8g0Cx1Dw37BfzzmaQLt1mLCb85faHyCwh1f2FsCzbEiYBY/C/64GUk4mkBY0QoTShPEYGLzIzGY0vyIjgezWbC87cmEKEe8CKQDTSS1sLyKXLbiwmhxjhcDACR4EjY=
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJy9U71KxEAQHpJUFrnzQEvlPBTUykLBTrHS4horLY5Vn+C8F/BR9h30AQLaWQse9xjRVvzmJgPDmk0iiB8Mk5lvfnZ3JkR/i9uEaAx5y8VWHcMkiOV8y21l9cIo10Q3xShGsD9ycueoeQF5HBA9QT5z8syfVX1hO+W24dtJlnl+aOq9DsR3Be4a8gz7RWoVzF+aOyh3CN+R1Co4X7FIxVeib9ojF3sncL6szorvZR/k0TwV/gv6DvV7Qd77quhdcHsJ/UBZnXkDMqv4fiaz2Iyc5Rhx60Eta/M4daY8h1EWj+2CYc08/wv6fhax8+/X+LFXDvvgu/bDHItF2i02dg7eCa7D3zcNb113t9A/Nfn2X47lNsHmhzvxW9j/8SDg2vYr5G3+aUvftnvbfJ4jajv4nGqeDeRhukIn95AZRH3gPeK86nnHPbC12mK/ASlNUDU=
+   eJy9lL0OAUEQgCfuKoW/hJKg9BgqCo2KQoInOPdovAGdWuLOYxytmMnuxNjM3p1EfMlk7c7Pzt7MAPgtmwrADOVSM3tefawcW/KXukGoC5G1zZpnwwxxn2H8CcacouxbAIeWOSPG9t5H7a1jyKYv4p1RF9QBFuizRDni/mTPiLl4A+sYsjmL/S0wd96t+JB6zpn2SWB+P3Hd4r11x+/a9MfkfIguSmzzboSmFr181w864s2UHteU6jAM/bZl6Cv1/Bfa9/PlP1LO82qqkQamJ8rgy4N6IrUx1jnf2tcb8jwS/nKWi/pKQ/q7PfEtch4zMbM0S0X9RXo555nIi+aBZ1abSffdbOP+BxBaHRNb36gKsEOJq+8zzbYMMlYRL2VNSJM=
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJw7JMbAcIjKGBkcIVItJxOm2ktQeS4mhgaQPAjkMSH0gNTwIvGhahn4mRDy6GZhcyNMHBsbXQ0IX0aTPyzGkIDLTGz2Ad3SgEsO3Q2EwhefHD516GphfiAUDoTMgZmF2yWkmUUsoJZZxKZrWplFKE0QYw45aohRd5RCs46Q4H9S0zS1/DhY3UUtDADHp5y8
+   eJxjYKA+OCyGXfwSFnFsYjBwWQy/PDXcRA4AuekiFvOwidEbXKaDP0fB0ALUShODNT9SO2/DADlpH10PKWaQm9dIiV8AdDwUmw==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="19" height="20" visible="0">
+ <layer id="5" name="Walkable" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGIYhCgljkwQE2zyDEPF0D3Mz6zCelHFyfHLHyAFH8RA6hhBj0AvvgnxQxqhdeoWQNvFr3LHEJqAchTiZg=
+   eJzbKMbAsHGIYhCgljkwQE2zyDEPF0D3Mz6zCelHF6eWWfj8TAmghhn0APjinxQzqBVeI8ksUs2lRp4k1Rx6lDmE1AIAN8yVQQ==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -236,7 +236,7 @@
   </object>
  </objectgroup>
  <objectgroup id="9" name="Replace"/>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="51" name="gaelbsmnt_mobs" type="spawn" x="256" y="544" width="96" height="32">
    <properties>
     <property name="quantity" value="3"/>
