@@ -191,22 +191,22 @@
  </tileset>
  <layer id="1" name="Ground" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJx7w8zA8IaK+D8QC7Cg4r9YxLGJwcRhZgkC+Vs4sWNkPbjU8LMgzMKlhhQ8yM1a8J9C80Bh/w8a7vjCnhjMTyBuRjF2DALUModaaQJkDghTI01AzaKGHxsGeX6kqln4MCnqAaTwGn0=
+   eJx7w8zA8AaI/1GA3yDh/0AswIKK/0LFC7kYGIqAuJgLIYZNLcict0AsCORv4cSOkc3CpYYfqP811Cxcaog1C4SJMYtY/BrqT2qYBYu//xSa9xdqDige8IU9MZgfGp/U8N8oJj9dYEsTqkwMDGpMxKcJfPnRFGiOGZFmgdLEGyrmocFsFjl52xMYjpvFINiLCdUsXBjdza8JqAcArYgYJg==
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJytU7lOw0AQHdZxCiJC4gj6gBIJ6JBAAr4AWioOIUtIVHQUSFSu+A6OL+CmI9xUQMMRwSfQBVrEG5xVJs6ubSGe9ORZe+bNsWOi/8dTnujFDcm2RqVEdJYlqpaSfRlLimggY+Y9dB7Ax6zdR2IQ5w3kWAQ3wSlwHVxx2/1Wcd4BR8EuIr8IlplCbxffelT8DPpjvm+LnG+O2ee1mE673oxfU3YfG2w5CpnOu9Aw9W16p+P5Hnj2cf0koRy5z5GE3qK50szCFPcXLCgKmEn5bbm+HarZdiIJOg/vBOuwnVOtb4ceBQfgDOqbFjXG9d0taj9G7JEXxl3heQnOQ2cu0i9jCHHD4JfYI7lTN4i99sJZyfyf+XCGsqcJcDIyQ/k/7kNnz+usQfZWQXxVtfeq97Yh6rqAzjn4DL9TPE+aunLHx2CPi3Out2U7wuZ7/ChQ8A6NO/AW5LsBg1k31EW/Nf0OsVuohenD9usp92AZWo2+Xy3jDCR+ANGhXY0=
+   eJxjYKA+uMrHwHCdFYJBbHLVxjExMCixYMfIgBg1ykB+FdCOGCBuA2JrIC4H4jRWVHU5QP4iIDYCYkUGJIxk3mKgHC8Tfn+J4ZFfiGTnbWbsam4IEmf2Taj+YibcanABfHbgijds/sYmBtMPigdQ2OOzixBQRItPbQJ+Q7eLmLDApo8cEM3E0ADChOzHZdctZtxpghCA2QNKE7egZnAzIeQ2CzEwbBEi3i0gwIXm9s/QeD0MNOcIFrNgQBOoTwuIvyKlI+Q0BUoTzPzg8EKx/wsfRAzZT5ZAbIXmDuT8uANPGQMzWxWoXw3NLli6/Yyk/wSUfQ2objvQfzuEUNWCgCmQbYbE5+ZHsJmR2KB4fCPAwHAHaMZxID4hBIkbkHgwKySNgPx7E0ec3yQyHSQDzfosihrWuAAAPyk/xw==
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJw7JMbAcIjK+CgQHwTiw0B8BMrGpu4wFrXo8iAgw8TAEMfEAAfo5oHUySLJizFhqjsMsScByYwEXGYhyyOz0dXgAjB1uAC6nZSYhR6m1DCLECDFzlGzaBNH+NThUoMrH5JiFlL+INks9PxNLCY2LIayWdjMI9ccfBgAF/Wthg==
+   eJxjYKA+OCyGnX1JDFPtJRxqQeCyGHY9lLjpohh2jAxwiSO7GZfcKBgFwxVcpmKaR8/rg8UsapU3yABXWYEenpSUKcS6GwB8thgW
   </data>
  </layer>
- <layer id="5" name="Walkable" width="19" height="20" visible="0">
+ <layer id="5" name="Walkable" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEIYmRAqh4YG90cdHl8dlACRs0izyxk/mAFlPqXlmFPTpzgykeEzCLGfnx5mVgxYv2DTw0hPxIyixg/EhuOlJSHxKgDALkyhO4=
+   eJzbKMbAsJFOGBkMhFm41JJrFrlg1CzyzELmD1ZAqX9pGfbkxAmx+QifPnxm4cp/xIoR6xd86giFFyGziPEjKeURueUhMeoAsrSHQw==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -222,7 +222,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="38" name="north" type="mapchange" x="256" y="64" width="96" height="32">
+  <object id="38" name="north" type="mapchange" x="256" y="32" width="96" height="32">
    <properties>
     <property name="map" value="gaelbasement"/>
     <property name="place" value="south"/>
