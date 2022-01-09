@@ -224,9 +224,9 @@
   <object id="14" name="secret_beneath:30" type="key" x="32" y="128" width="32" height="32">
    <properties>
     <property name="phrase" value="sign_gael_nokey"/>
-    <property name="requireId" value="secret_beneath_nondisplayed"/>
+    <property name="requireId" value="secret_beneath"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="35"/>
+    <property name="requireValue" value="30"/>
    </properties>
   </object>
  </objectgroup>
