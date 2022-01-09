@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="58">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -191,73 +191,73 @@
  </tileset>
  <layer id="1" name="Ground" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJzNlEsOgCAMBUnsxpWfE3sob2X1BqCQQPiEYNpi4mI2pE7g5VUclEKLKUDPPkbwZdZxW2bI0f48denGbHAtkH9DZYL6O7j8yXUUuWMlY67LCLKv3cuebx1dLHTytuA6mT7Xq8t3V5q9Q0F0SXu1Qt6v2r5S79rabWpPQu7S3U5dUs8Xrt7/iRaU+Qd16B+n
+   eJzNlEsKgDAMBQtm48rP/Y/hrYzeoGoLLf0QKkkquJhNSYcmvBQHY9BxVWBgGxP4Uuu5HTOU2HCeu2yjNroWKO9wmYDuQ8qfXHs1dyRmLHVditlT7+rZo9Rls96i6xD6fK7OkF3t7D0GkkubqxXKfFH7yn1ra7e5OYlz1+527tJ6vnD1/idacOofsUofJw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJytVM0uBEEQ7vRMZ+MyG8QmXITxAvYocXIi4bInKzZZLkI4eASP4DncOCBuHPycsT8vgCvuvsp0Z6p7azXiS77MdG3VN9X1s0qVWNNKxElVtg/DY6ZUC1oVXbwTtPa12rr0rbB3DtKYTWXy3GI+hBznT+jXjc95I9+VP6/AGabXRkwDPB1T6gx8h+4ycl2x91jSsl43Uapn6dDH+za0rqFzAybwW0d802o0gp50RtW3+AhquGVkvxioFzyWvjvJcnkW8pBshDyV7X9Bn9WuNmRe/xsbQQ3dnCa132vtBVo0V1O4x7jV6iUy3b15/5tCb2ln8khe0/B5Cnq1a/z+0XfmkNtIUGO6e71aUurBot0Pwjk0LsDLdNA33Fc3J3x/Vk2xH4Rb/H4H3qf+LFLcSzZIAt+fBZaXwybOLWbbiewLrz/lxc/7OB+weOrZa+azm/gzTHC2N9TzCPGH4LEp7D/BA/0HTRTPGL4ARtVRSw==
+   eJytVMsuBFEQrdzum4lNTxCTsBHaD5ilxMqKhM2sjJhk2Ahh4RN8gu+wY4HYsfBYYx4/gC32TqX7pqvv1LiIk5x035qq03XrMUQF1gypOKnq9mF4TIha0KqY7J1hTFmrbQrfiniXYI3ZWKfMLeTDSHFuWKK6x3mr31U+r8AZoddGzDZ4OkZ0Br4j72XkupLfY8noet2IqJfToY/3T8RfQ+cGjOC3jvhmrtHwetIZpW/x4dVwy+p+IXAvZCx/d1Lk8qzkodkYaazb/4K+qF1tyLz+Nza8Gro5jWq/19rztHiupnCP8VyrF+l095b9byq95Z1JA3lNw+fJ69WuLfePvzOH3Ea8GvPd69WCWg8WbbZrjHNoXICX8aCvv69uTuT+rOa7xrjF73fgfVyeRY57SQbJkPuzIPJy2MS5JWw7gX2R9ee85Hkf5wMRzz17TcrsRuUZZjjbG+p5hPhD8Nhm9p/ggf+DJrJnCF/l/lFL
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJy9k8sNwCAMQ5mC/XfpBMBCFYdKqHIeJI3qY3C+2KUwrrohOHJUvEP9Ue13yiN+E3kq9ifW/l9nGUn7PbfPuI33rwhqvyimHk/rKd6q5w5afUPxIj6z8k7m2O2T0Y9uS95WIK6lU0u7NFdzaj5T21GveTxxA1J4KSo=
+   eJytU7ENACAM8gr//8ULqg8ZBxMHihbLqKDQ0FI4Wr0QAhp03sn7o/r3TMf4A+hMyGjE2w8ULyey8u3Z//pZyJwTyqdi9fH1PcQ7+9wDfUA8Zc883YuPW56M/9hs2W4jMK7XU6+7zJcFO5/ZbXXXIjsxAeRSKhQ=
   </data>
  </layer>
- <layer id="5" name="Walkable" width="19" height="20">
+ <layer id="4" name="Walkable" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEPRgb41BGDh4JZ2AC1zCJWP6VmoaujxH+kAlz+IQdQ6hZqmYUrvWGTo9QsUuICnxg1zEJ3IylmYXMHpWZR0134zCAGEGsWIbeRoofYcgMfBgBOXKM/
+   eJzbKMbAsBEPRgb41BGDh4JZ2AC1zKKmu0gJG0r8RyrApp8cc3CZRS6gxCxc6Q2bHKVmkRIX+MSoYRa6G0kxC5s7KDWLmu7CZwaxgBiziM2jlGJizQEAzxiieA==
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
-  <object id="36" name="west" type="mapchange" x="0" y="288" width="32" height="96">
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="west" type="mapchange" x="0" y="288" width="32" height="96">
    <properties>
     <property name="map" value="gaelbasement"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="37" name="east" type="mapchange" x="544" y="320" width="32" height="32">
+  <object id="2" name="east" type="mapchange" x="544" y="320" width="32" height="32">
    <properties>
     <property name="map" value="gaelbasement_thievesparty"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="38" name="north" type="mapchange" x="256" y="0" width="96" height="32">
+  <object id="3" name="north" type="mapchange" x="256" y="0" width="96" height="32">
    <properties>
     <property name="map" value="gaelbasement_en"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="39" name="south" type="mapchange" x="288" y="608" width="32" height="32">
+  <object id="4" name="south" type="mapchange" x="288" y="608" width="32" height="32">
    <properties>
     <property name="map" value="gaelbasement_se"/>
     <property name="place" value="south"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Replace"/>
+ <objectgroup id="6" name="Replace"/>
  <objectgroup id="7" name="Spawn">
-  <object id="51" name="gaelbsmnt_mobs" type="spawn" x="96" y="128" width="288" height="448">
+  <object id="5" name="gaelbsmnt_mobs" type="spawn" x="96" y="128" width="448" height="448">
    <properties>
     <property name="quantity" value="7"/>
     <property name="spawngroup" value="undg"/>
    </properties>
   </object>
-  <object id="53" name="gaelbsmnt_mobs" type="spawn" x="64" y="288" width="29" height="96">
+  <object id="6" name="gaelbsmnt_mobs" type="spawn" x="64" y="256" width="29" height="128">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="undg"/>
+   </properties>
+  </object>
+  <object id="7" name="gaelbsmnt_mobs" type="spawn" x="256" y="64" width="96" height="32">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="undg"/>
    </properties>
   </object>
-  <object id="54" name="gaelbsmnt_mobs" type="spawn" x="256" y="64" width="96" height="32">
+  <object id="8" name="gaelbsmnt_mobs" type="spawn" x="224" y="544" width="160" height="32">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="undg"/>
-   </properties>
-  </object>
-  <object id="56" name="gaelbsmnt_mobs" type="spawn" x="352" y="544" width="29" height="96" rotation="90">
-   <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="5"/>
     <property name="spawngroup" value="undg"/>
    </properties>
   </object>
