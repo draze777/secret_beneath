@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="58">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="10">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -204,64 +204,63 @@
    eJxjYKA+OCyGXfwSFnFsYjBwWQy/PLluuiiGnSZW/hIVzaI2uExF86kV9siA1v4fBZiAWmkClh+pEYe4yoiBNgvkP2qaRyq4SEb4khK/AN31HZM=
   </data>
  </layer>
- <layer id="5" name="Walkable" width="19" height="20">
+ <layer id="4" name="Walkable" width="19" height="20">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEIYmQwmMxCNpMc+7G5BR/AZzepgFrm4DOLXHeRI0es2aSEMzUAPrOITRvEmE8rs8gF5OYDUs0hNk/Rwx3UKiOoZRYAw7qcQA==
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
-  <object id="36" name="west" type="mapchange" x="0" y="288" width="32" height="96">
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="west" type="mapchange" x="0" y="288" width="32" height="96">
    <properties>
     <property name="map" value="gaelbasement_ww"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="37" name="east" type="mapchange" x="576" y="288" width="32" height="96">
+  <object id="2" name="east" type="mapchange" x="576" y="288" width="32" height="96">
    <properties>
     <property name="map" value="gaelbasement"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="38" name="north" type="mapchange" x="256" y="64" width="96" height="32">
+  <object id="3" name="north" type="mapchange" x="256" y="64" width="96" height="32">
    <properties>
     <property name="map" value="gaelbasement_nnws"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="39" name="south" type="mapchange" x="288" y="608" width="32" height="32">
+  <object id="4" name="south" type="mapchange" x="288" y="608" width="32" height="32">
    <properties>
     <property name="map" value="gaelbasement_ws"/>
     <property name="place" value="south"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Replace"/>
+ <objectgroup id="6" name="Replace"/>
  <objectgroup id="7" name="Spawn">
-  <object id="51" name="gaelbsmnt_mobs" type="spawn" x="96" y="160" width="416" height="416">
+  <object id="5" name="gaelbsmnt_mobs" type="spawn" x="96" y="160" width="416" height="416">
    <properties>
     <property name="quantity" value="7"/>
     <property name="spawngroup" value="undg"/>
    </properties>
   </object>
-  <object id="52" name="gaelbsmnt_mobs" type="spawn" x="512" y="288" width="29" height="96">
+  <object id="6" name="gaelbsmnt_mobs" type="spawn" x="512" y="288" width="29" height="96">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="undg"/>
    </properties>
   </object>
-  <object id="53" name="gaelbsmnt_mobs" type="spawn" x="64" y="288" width="29" height="96">
+  <object id="7" name="gaelbsmnt_mobs" type="spawn" x="64" y="288" width="29" height="96">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="undg"/>
    </properties>
   </object>
-  <object id="54" name="gaelbsmnt_mobs" type="spawn" x="320" y="128" width="29" height="32">
+  <object id="8" name="gaelbsmnt_mobs" type="spawn" x="320" y="128" width="29" height="32">
    <properties>
-    <property name="quantity" value="1"/>
     <property name="spawngroup" value="undg"/>
    </properties>
   </object>
-  <object id="56" name="gaelbsmnt_mobs" type="spawn" x="352" y="544" width="29" height="96" rotation="90">
+  <object id="9" name="gaelbsmnt_mobs" type="spawn" x="352" y="544" width="29" height="96">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="undg"/>
