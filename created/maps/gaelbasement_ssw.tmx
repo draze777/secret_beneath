@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="51">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="19" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="20" nextobjectid="13">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -191,64 +191,92 @@
  </tileset>
  <layer id="1" name="Ground" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJx7w8zA8AYHfgvEpkwMDJvFGBjMgPRrPGpheAsndgwySxVqlhrULFxqiTHLEmqWFRXMQuYPVbNAAJf8fzS9f/GY9Q9JLpoJU16QBZXPz4LbLAEW7H6hBI8ks0Dhj46xqfdkguQtLyzyhMxCNxM5j1LqLpA5MEypWcjlEFSsgVyzIqFmReHxIzUwvvxNKqYWAABnsQG/
+   eJx7w8zA8AaIt3CiYpDYWyA2ZWJg2CzGwGAGpF/jUfsGhxwMg8xShZqlBjULl1p85sDMsoSaZUUFs5D5w9Gs/2jyf/Go/4ckF82EKS/IgsrnZ8FtlgALdr9QgkeSWaDwR8fY1HsyQfKWFxZ5Qmahm4mcRyl1F8gcGKbULORyCMQHAXLNioSaFYXHj9TAhPLlQGAADXwMMQ==
+  </data>
+ </layer>
+ <layer id="18" name="Ground_hut1" width="19" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYICAf8yomFzwH6hXgAUV/yXDvLdAPYJAvUpomJ+FPLOUsehTJNMsaoHBatYoGAWjYHgCAFYXDBM=
+  </data>
+ </layer>
+ <layer id="16" name="Objects_hut1" width="19" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAu4GRiYLjKx8Cgy8/A8BxISwHpQibyzJKE6vvMB6G3A+knAuSZtQOo9ysQMwPdcxRIHwfiL2SadYIPU+wFFjFiwBeovgOs5OnHBi4AzYoC4hAgNqSSmSlAsxypZNYoGAWjYGAAAL8AEBM=
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYKAu2MHHwPAViL8A8VEg3g7EjwWwqy1kZWDIAWIjJGzNipA/wYeq/jiQ/xmHWY2smGLIZn3mw5R/gUUMBCZC9bUB6UmsmGYx82PXhw0sguoLBdJVUHYMFrcewCKGDhZC1ZQD6SIoOw2LvgtAsWiouCEOs6Zi0YdulgALA8MDoFg2VNyRSLMWs2KapcSCygZhZRZUNYosCDl0tUpoakcCuCbIwHAdiG8g0SAwTwhCKwli13eTmYHhFjOqGEj/TagZ16BsEFAXJt1dMPfAzLwuiOoeXO56zYwpdh3qnhtI7iMGYDPrmiCq265R4C5yAbpZt5jJx2+o6C4YAADiREZu
+   eJztjs0JgDAMRgOtZ4lOYD24m0M5VqqevOsQWtpiUxX8u+mDkNAmHw/g52cLpbYPCUCdPM9Tks+mSsl3Crn+xbsq2v0ChAB6qTbohiazXeH+XScAesHfzH3nMsjNhiq/7uV9fKZG7nPkNYrtm3Y+beB3hr0sQu5GD7zuEmf14n5NL3p5ZngFL6Q=
+  </data>
+ </layer>
+ <layer id="17" name="Ground_hut2" width="19" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAd/GNGxeSC/0C9Aiyo+C+Z5gkC9SqhYX4W8sxSxqJPkUyzRsEoGAWjYLAAAMvmB2M=
+  </data>
+ </layer>
+ <layer id="12" name="Objects_hut2" width="19" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg4UMTEwHCVj4HBD0hzQtliTJSZGQfULwnEH1gpM2cqCwNDG9CMSSBz2Mg3Jwbqji4gXQVlp5HptsVQfeVAuohCs3Kw6JtKplmLgPqakPQuZCXfrFEwCkYB7QAAMe0NOA==
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPDosRUIAG3jBjx9jMwqd21CzSzIKx/2HB2MzCpu4fkllvmSF6QtkgWIAFgkHgEppZMLlwoLoINLXIfkllg2BiQDpQXQaaWlzhQg4Y6mZdBMqLM0FoWrrrNYE0iQzyoO4JxuMuYs0iBhBrFifUPaxEugs9fVPiLkoBrjxPLgYAbeWDhA==
+   eJxjYMAPDosRUIBDTzATA0MxE4TGZxY+8y8D5S4hyUviMQtdLSsTqvxhLHJiTNjNAvE5gXJ5QCwDxBexyKMDVjxmgfSD5FmhZokTCBNccjCzZJkgYQFii+EwCxQeMIzPLGSQCDXrDTOq+ktiCAzjIwMQvwAtnIqQzCLkT2LBqFkIAEtH6HFIbXe9ZoaYQ4xZeVD3BONxF7FmEQOINYuTCZEHiXEXevqmxF2UgjfM1MUAFy5Wlw==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="19" height="20">
+ <layer id="15" name="Above_hut1" width="19" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEQY2RAilps6nHJ4xLDxsZlFkwNqWbh00uKWfj8RUgenz5yzELXR0784jOLWmCwm4UrvLDR+NIHMWYh240vfVDqLmLNwmY3uWaR4y5yAa60Sy6mNgAAOz+Qlw==
+   eJxjYICAN8yomFyAbg655uEyZ9Qs/Gb9w4LJAW+B+gRYGBjC2RgYItggbBCmBKQDzclgo8yMUTAKRgH5AAC3/C0g
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
-  <object id="37" name="east" type="mapchange" x="576" y="288" width="32" height="96">
+ <layer id="14" name="Above_hut2" width="19" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAdvGFGxeQCdHMoMW/ULNLAP2bsmBwgwALB4WwMDBFsCD4lIB1oTgYbZWaMglEwClABALWaJ6s=
+  </data>
+ </layer>
+ <layer id="4" name="Walkable" width="19" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzbKMbAsHGEY2SALIaNjU0PulpyzMKml1Sz0NUS40d84qSEFy59hMwlxyxqgcFuFq6wx0bjSx/EmIVsN770Qam7iDULm93kmkWOu8gFxOQfUjC1AQDo0p3O
+  </data>
+ </layer>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="east" type="mapchange" x="576" y="288" width="32" height="96">
    <properties>
     <property name="map" value="gaelbasement_ss"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="45" name="undg_gison_bottle_8" type="script" x="32" y="224" width="32" height="32">
+  <object id="2" name="undg_gison_bottle_8" type="script" x="32" y="224" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="8" name="undg_hut_block" type="script" x="96" y="256" width="64" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Replace"/>
  <objectgroup id="7" name="Spawn">
-  <object id="46" name="gaelbsmnt_mobs" type="spawn" x="416" y="64" width="128" height="160">
+  <object id="4" name="gaelbsmnt_mobs" type="spawn" x="512" y="288" width="32" height="128">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="undg"/>
+   </properties>
+  </object>
+  <object id="5" name="gaelbsmnt_mobs" type="spawn" x="256" y="384" width="160" height="160">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="undg"/>
    </properties>
   </object>
-  <object id="47" name="gaelbsmnt_mobs" type="spawn" x="544" y="288" width="32" height="96">
+  <object id="6" name="gaelbsmnt_mobs" type="spawn" x="256" y="96" width="96" height="192">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="undg"/>
    </properties>
   </object>
-  <object id="48" name="gaelbsmnt_mobs" type="spawn" x="256" y="384" width="160" height="160">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="undg"/>
-   </properties>
-  </object>
-  <object id="49" name="gaelbsmnt_mobs" type="spawn" x="256" y="96" width="96" height="192">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="undg"/>
-   </properties>
-  </object>
-  <object id="50" name="gaelbsmnt_mobs" type="spawn" x="64" y="288" width="480" height="288">
+  <object id="7" name="gaelbsmnt_mobs" type="spawn" x="64" y="288" width="480" height="288">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="undg"/>
@@ -256,4 +284,28 @@
   </object>
  </objectgroup>
  <objectgroup id="8" name="Keys"/>
+ <objectgroup id="6" name="Replace">
+  <object id="9" name="undg_hut2_entrance:22" type="replace" x="448" y="224" width="64" height="32">
+   <properties>
+    <property name="Ground" value="Ground_hut2"/>
+    <property name="Objects" value="Objects_hut2"/>
+   </properties>
+  </object>
+  <object id="10" name="undg_hut2_exit:21" type="replace" x="448" y="256" width="64" height="32">
+   <properties>
+    <property name="Above" value="Above_hut2"/>
+   </properties>
+  </object>
+  <object id="11" name="undg_hut1_entrance:12" type="replace" x="0" y="224" width="64" height="32">
+   <properties>
+    <property name="Ground" value="Ground_hut1"/>
+    <property name="Objects" value="Objects_hut1"/>
+   </properties>
+  </object>
+  <object id="12" name="undg_hut1_exit:11" type="replace" x="0" y="256" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_hut1"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
